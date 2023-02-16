@@ -1,0 +1,25 @@
+/*
+
+referece : 
+Design Patterns: Elements of Reusable Object-Oriented Software
+Authors: Erich Gamma, John Vlissides, Ralph Johnson, Richard Helm
+
+https://app.pluralsight.com/library/courses/design-patterns-structural-playbook
+
+
+people rediscovering the same solutions over and over again. Why don't we write down those solutions as patterns? 
+
+--> 23 patterns in the Gang of Four book.
+
+
+It's easy to misunderstand patterns and think that they are prescriptive, 
+that you can design the system by picking the right patterns and following them like a blueprint. 
+
+That would be a mistake. A pattern is not a blueprint. Each pattern has many variations
+
+How patterns are useful then?
+
+1. Name the idea/design appraoch
+
+2. communicate/discuss easily
+*/

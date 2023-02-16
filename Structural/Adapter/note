@@ -1,0 +1,20 @@
+/*
+
+referece : https://app.pluralsight.com/library/courses/design-patterns-structural-playbook
+
+You have a client/library that talks to compatible things (interfaces), and you want to have it talk to incompatible things(your concrete classes), so you write an adapter class that inherits from CompatibleThing, but also wraps an IncompatibleThing. 
+
+It probably takes it at construction and stores it in a private field. And that's what this trick is all about. 
+
+--> An adapter is a compatible thing,  --> inheritance
+--> but it also has an incompatible thing, --> delegation
+
+so the adapter is using both inheritance and the delegation. 
+
+So at run time, the adapter receives the calls from the client and delegates them to the incompatible thing, and that's how adapter works. 
+
+It's a good solution to the problem of mismatched types. 
+
+It does come at the cost that you need to wrap incompatible things into adapters, but in exchange for that, the incompatible things get a whole new interface.
+
+*/
